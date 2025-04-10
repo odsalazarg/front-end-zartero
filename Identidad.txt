@@ -1,0 +1,90 @@
+Fase 1: Configuración Inicial y Desarrollo Básico (Semanas 1-4)
+
+Objetivo: Configurar el entorno de desarrollo y construir las funcionalidades básicas de la plataforma.
+
+1.	Semana 1:
+•	Instalación y configuración del entorno de desarrollo:
+•	Instalación de Laravel en servidor de pruebas.
+•	Configuración de base de datos MySQL y control de versiones con Git.
+•	Configuración del sistema de roles y autenticación para operarios, administradores, integradores y team principal.
+•	Configuración de seguridad: cifrado de contraseñas, medidas contra ataques CSRF y XSS.
+•	Definición de la arquitectura del proyecto:
+•	Diseño del esquema de base de datos.
+•	Planificación de modelos y controladores de Laravel.
+2.	Semana 2-3:
+	•	Desarrollo de funcionalidades de comunicación entre operarios y residentes:
+•	Implementación del sistema de gestión de torres y unidades habitacionales.
+•	Módulo de registro y consulta de llamadas.
+•	Funcionalidad de búsqueda avanzada por residentes y llamadas registradas.
+•	Integración con la base de datos de residentes y gestión de contactos.
+•	Desarrollo del módulo de parqueaderos (residentes y visitantes):
+•	Registro de entrada y salida de vehículos.
+•	Visualización de cupos disponibles.
+•	Alertas en tiempo real sobre disponibilidad y uso de parqueaderos.
+3.	Semana 4:
+•	Finalización de módulos iniciales:
+•	Pruebas unitarias de las funcionalidades de llamadas y parqueaderos.
+•	Ajustes de interfaz básica para operarios.
+•	Preparación para la primera entrega y revisión con el cliente.
+
+Entregables de Fase 1:
+
+•	Sistema de gestión de residentes y parqueaderos (registro y consultas).
+•	Funcionalidades básicas de comunicaciones y registro de llamadas.
+•	Implementación de la base de datos para residentes y vehículos.
+
+Fase 2: Dashboard y Funcionalidades Avanzadas (Semanas 5-8)
+
+Objetivo: Desarrollar el dashboard para administradores y funcionalidades avanzadas como la gestión de usuarios y el control de licencias.
+
+1.	Semana 5-6:
+•	Desarrollo del dashboard de administrador:
+•	Visualización de estadísticas sobre residentes, vehículos y visitantes.
+•	Informe gráfico de visitantes registrados y movimientos de vehículos en los últimos 30 días.
+•	Gestión de usuarios: creación, edición y eliminación de operarios.
+•	Implementación de módulo de licencias:
+•	Gestión de licencias anuales con alertas automáticas antes del vencimiento.
+•	Vinculación de licencias con MAC de los equipos.
+•	Restricciones de uso en caso de vencimiento de licencias.
+2.	Semana 7-8:
+•	Desarrollo del módulo de informes:
+•	Generación de informes en PDF y Excel de registros de llamadas, ingreso y salida de vehículos, y registro de visitantes.
+•	Funcionalidad de búsqueda avanzada por fechas, nombres de residentes y placas de vehículos.
+•	Integración con sistemas de notificación:
+•	Notificaciones por correo electrónico para administradores sobre el registro de visitantes y vencimientos de licencias.
+
+Entregables de Fase 2:
+
+•	Dashboard completo para administradores.
+•	Módulo de informes funcional.
+•	Sistema de gestión de licencias e integración con notificaciones.
+
+Fase 3: Pruebas, Optimización y Capacitación (Semanas 9-12)
+
+Objetivo: Realizar pruebas del sistema, optimizar funcionalidades y capacitar al cliente en el uso del software.
+
+1.	Semana 9-10:
+•	Pruebas funcionales y de estrés:
+•	Validación de todas las funcionalidades (llamadas, parqueaderos, gestión de usuarios).
+•	Pruebas de rendimiento en el entorno de producción.
+PLAN DE TRABAJO PARA DESARROLLO DE SOFTWARE DE CITOFONÍA VIRTUAL EN PHP LARAVEL
+
+Introducción
+
+El proyecto consiste en desarrollar un software de gestión de base de datos y comunicaciones para conjuntos residenciales y parques industriales. El sistema deberá permitir la comunicación entre operarios y residentes, gestión de parqueaderos, control de visitantes y acceso a reportes y estadísticas a través de un dashboard avanzado.
+
+Tecnología a Utilizar
+
+	•	Backend: PHP con el framework Laravel 10.
+	•	Frontend: Blade Templates o Vue.js.
+	•	Base de Datos: MySQL.
+	•	Control de Versiones: Git.
+	•	Servidor: Se recomienda VPS o servidores dedicados con soporte para PHP 8.1.
+	•	Autenticación y Seguridad: Sistema de roles y permisos, autenticación con tokens (JWT o Passport), cifrado de datos sensibles.
+
+Objetivos del Proyecto
+
+	1.	Desarrollar una plataforma escalable y segura que permita la gestión de comunicaciones entre residentes y operarios, y que incluya funcionalidades para la administración de parqueaderos y control de visitantes.
+	2.	Crear un dashboard interactivo para que los administradores y operarios gestionen de manera eficiente los procesos de comunicación y acceso.
+	3.	Facilitar la generación de reportes en formatos PDF y Excel que incluyan registros de llamadas, ingreso y salida de vehículos, y registro de visitantes.
+	4.	Garantizar un sistema de licencias para la administración del software a través de integradores y distribuidores, que incluya vencimientos y renovaciones.
